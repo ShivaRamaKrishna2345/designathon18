@@ -1,0 +1,155 @@
+{
+    "telangana":{
+        "diseases":{
+            "diseases":["1.Lung cancer,2.diarrhea,3.malaria"]
+            },
+            "precaution":{
+                "precaution":["Avoid tobacco, alcohol and get vaccinated against HPV."]
+            },
+            "factor":{
+        "factor":["Alcohol consumption,Sun Exposure,Family history"]
+    }
+    },
+    "mizoram":{
+        "diseases":{"diseases":["1.malaria,2.Gastric cancer,3.Heart disease"]
+    },
+
+        "factor":{"factor":["1.air pollution,2.Smoking,3.Family History"]},
+        "precaution":{ "precaution":["avoid smoking,minimizing exposure to environmental pollutants"]}
+    },
+    "andhrapradesh":{
+        "diseases":{ "diseases":["1.Cervical cancer,2.diarrhea,3.Malaria"]},
+        "factor":{"factor":["HPV infection,weakened immune system"]},
+        "precaution":{ "precaution":["HPV vaccination,avoiding smoking,maintaining a healthy immune system"]}
+    },
+    "manipur":{
+        "diseases":{ "diseases":["1.asopharny cancer,2.Diarrheal Diseases,3.Typoid"]},
+        "factor":{"factor":["Epstein-Barr virus(EBV) infection,genetic predisposition,environmental factors"]},
+        "precaution":{"precaution":["minimizing exposure to known risk factor,seeking medical attention for timely diagnosis"]}
+    },
+    "nagaland":{
+        "diseases":{"diseases":["1.Muscoloskeletal,2.Heart diseases,3.Tuberculosis"]},
+        "factor":{"factor":["Aging,genetics,injuries,lifestyle factors"]},
+        "precaution":{"precaution":["Healthy lifestyle with Excercise,balanced diet"]}
+    },
+    "kerala":{
+        "diseases":{"diseases":["1.Skin cancer,2.Kidney diseases,3.colorectal Diseases"]},
+        "factor":{"factor":["Exposure to UV rays,fair skin,family history of skin cancer"]},
+        "precaution":{"precaution":["using sunscreen,wearing proctective clothing,avoiding excessive sun exposure"]}
+    },
+    "Karnataka":{
+        "diseases":["Stomach cancer"],
+        "factor":["Helicobacter pylori infection,smoking,certain dietary factors"],
+        "precaution":["Maintaining a healthy diet with fruits and vegetables,avoid smoking,attending regular chechups"]
+    },
+    "Maharastra":{
+        "diseases":["Ovary cancer"],
+        "factor":["certain genetic mutations,hormone replacement therapy,infertility treatments"],
+        "precaution":["Maintaining healthy lifestyle,gynecological check-ups"]
+    },
+    "MadhyaPradesh":{
+        "diseases":["Oral cancer"],
+        "factor":["Tobacco use,excessive alcohol consumption,HPV infection"],
+        "precaution":["avoiding tobacco,limiting alcohol intake,getting vacinated against HPV"]
+    },
+    "Odisha":{
+        "diseases":["Gastric cancer"],
+        "factor":["Helicobacter pylori infection,chronic inflammation of the stomach lining"],
+        "precaution":["Addressing H.pylori infections,adopting a balance diet with friuts and vegetables "]
+    },"JammuandKashmir":{
+        "diseases":["colorectal cancer"],
+        "factor":["age,family history,certain genetic conditions"],
+        "precaution":["regular screenings,maintaining a healthy lifestyle with a low-fiber"]
+    },
+    "UttarPradesh":{
+        "diseases":["Heart Diseases"],
+        "factor":["High blood pressure,high cholestrol,smoking,diabetes"],
+        "precaution":["Balanced diet,regular  excercise,managing stress,avoid smoking"]
+    },
+    "Haryana":{
+        "diseases":["Tuberculosis"],
+        "factor":["Weakened immune system,aging,overcrowded and poorly ventilated environments"],
+        "precaution":["Get vaccinated, be isolated from others."]
+    },
+    "Gujarat":{
+        "diseases":["Diabetics"],
+        "factor":["Genetics,Obesity,environmental factors"],
+        "precaution":["Be physically active and take proper medication."]
+    },
+    "Punjab":{
+        "diseases":["Pharynx cancer"],
+        "factor":["Tobacco and alcohol use,HPV infection,diet lacking"],
+        "precaution":["get HPV vaccine."]
+    },
+    "Assam":{
+        "diseases":["Oesophageal cancer"],
+        "factor":["Tobacco and alcohol use,Obesity,GERD,age"],
+        "precaution":["avoiding tobacco and alcohol use."]
+    },
+    "Uttarpradesh":{
+        "diseases":["Gallbladder cancer"],
+        "factor":["Gallstones,chronic inflammation,Obesity,certain genetic conditions"],
+        "precaution":["Limit the time you spend sitting or lying down and maintain healthy weight."]
+    },
+    "ArunachalPradesh":{
+        "diseases":["Liver cancer"],
+        "factor":["alcoho consumption,Obesity,cirrhosis"],
+        "precaution":["Prevent and treat hepatits B and C infections."]
+    },
+    "Goa":{
+        "diseases":["Hypertension"],
+        "factor":["age,lack of physical activities"],
+        "precaution":["Get proper sleep, reduce salt in your diet"]
+    },
+    "Westbengal":{
+        "diseases":["Respiratory  Diseases"],
+        "factor":["air pollution,smoking,infections."],
+        "precaution":["Hand hygiene, respiratory hygiene/ cough etiquette"]
+    },
+    "Bihar":{
+        "diseases":["oral cancer"],
+        "factor":["Tobacoo use,alcohol consumption,HPV infection"],
+        "precaution":["Visit dentist regularly"]
+    },
+    "Chattisgarh":{
+        "diseases":["Asthma"],
+        "factor":["Allergens,Environmental Factors,Smoking"],
+        "precaution":["Avoid dust."]
+    },
+    "Himachalpradesh":{
+        "diseases":["Diarrhoeal Diseases"],
+        "factor":["Infections,food intolerance,IBD(inflammatory Bowel Diseases)"],
+        "precaution":["Store and prepare food safely by washing."]
+    },
+    "Jharkhand":{
+        "diseases":["Anemia"],
+        "factor":["Iron deficiency,Vitamin deficiency,Chronic Diseases"],
+        "precaution":["Take iron-rich food, vitamin-c."]
+    },
+    "Meghalaya":{
+        "diseases":["Chronic Obstructive pulmonary Diseases(COPD)"],
+        "factor":["Smoking,Environmental exposure,Genetic factor,Respiratory infections"],
+        "precaution":["Avoid smoking and stay physically active."]
+    },
+    "Rajasthan":{
+        "diseases":["Bronchitis"],
+        "factor":["Viral infections,Smoking,Bacterial infections,Air pollution"],
+        "precaution":["Wash your hands frequently."]
+    },
+    "Sikkim":{
+        "diseases":["Cirrhosis"],
+        "factor":["Chronic Alcoholism,Chronic Viral Hepatitis,genetic Disorders"],
+        "precaution":["Eat a low-sodium diet"]
+    },
+    "Tripura":{
+        "diseases":["Cardiovascular Diseases"],
+        "factor":["High bp,Tobacoo Use,Unhealthy diet."],
+        "precaution":["Improve sleep health"]
+    },
+    "Tamilnadu":{
+        "diseases":["Kidney Diseases"],
+        "factor":["Diabetes,Hypertension,Genetics,age,heart diseases."],
+        "precaution":["Drink more water and limit alcohol."]
+    }
+}
+

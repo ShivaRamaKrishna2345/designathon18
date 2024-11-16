@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp3468826.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width:100vw;
+    height: 100vh;/* Ensure the background image covers the entire viewport */
+}
+
+.m{
+    padding-top: 250px;
+    padding-left: 450px;
+}
+.ity{
+        border: none;
+        text-align: center;
+        padding: 8px ;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size:13px;
+        background-color: rgb(126, 125, 125);
+        color: white;
+}

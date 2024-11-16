@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>Search Web App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #search-container {
+            text-align: center;
+        }
+
+        #search-bar {
+            padding: 8px;
+            width: 300px;
+        }
+
+        #search-results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="search-container">
+        <h1>Give State - Get the highest predicted cancer</h1>
+        
+        <label for="search-bar">Enter State:</label>
+        <input type="text" id="search-bar" placeholder="Type your query here...">
+        <button onclick="search()">Search</button>
+
+        <div id="search-results"></div>
+    </div>
+
+    <script>
+        async function search() {
+            const searchBar = document.getElementById('search-bar');
+            const searchResults = document.getElementById('search-results');
+
+            // Get the user's query
+            const query = searchBar.value.toLowerCase();
+
+            try {
+                // Replace 'your-json-file.json' with your actual local JSON file path
+                const response = await fetch('state.json');
+                const data = await response.json();
+
+                // Check if the query exists in the JSON
+                const result = data[query];
+
+                if (result) {
+                    // Display the results in a user-friendly format
+                    searchResults.innerHTML = formatResults(result, query);
+                } else {
+                    searchResults.innerHTML = `<p>No information found for ${query}.</p>`;
+                }
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                searchResults.innerHTML = `<p>Error fetching data. Please try again.</p>`;
+            }
+        }
+        
+        // `: backticks - used for dynamically entering the data.
+        
+        function formatResults(result, query) {
+            // Format the data as needed for display
+            let resultHTML = `<h3>${query.toLowerCase()}</h3>`;
+
+            for (const plant in result) {
+                resultHTML += `<h4>${plant}</h4>`;
+                resultHTML += '<ul>';
+
+                const methods = result[plant].diseases;
+                const methods1 = result[plant].factor;
+                const methods2 = result[plant].precaution;
+              
+
+                if (methods && methods.length > 0) {
+                    methods.forEach(method => {
+                        resultHTML += `<li>${method}</li>`;
+                    });
+                }
+                 if (methods1 && methods1.length > 0) {
+                    methods1.forEach(method3 => {
+                        resultHTML += `<li>${method3}</li>`;
+                    });
+                }
+                if (methods2 && methods2.length > 0) {
+                    methods2.forEach(method5 => {
+                        resultHTML += `<li>${method5}</li>`;
+                    });
+                }
+
+
+                resultHTML += '</ul>';
+            }
+
+            return resultHTML;
+        }
+    </script>
+</body>
+</html>

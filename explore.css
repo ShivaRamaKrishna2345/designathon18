@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/158/158179/virus.jpg?w=1155&h=1730");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #333; /* Default text color */
+}
+
+h1 {
+    text-align: center;
+    color:#fff; /* Header text color */
+}
+
+.sty {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    background-color:rgb(147, 179, 244); /* White background color for .sty element */
+    border-radius: 10px;
+}
+.this{
+    font-size: 1.2rem;
+}
+.nam{
+    margin-bottom: 10px;
+}
+main {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    align-items: center;
+}

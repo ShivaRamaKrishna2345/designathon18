@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detection of cancer</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        @media screen and (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="select.html" class="select-link"><b>HOME</b></a></li>
+            <li><a href="explore.html" class="explore-link"><b>EXPLORE</b></a></li>
+            <li><b>LOGIN</b></li>
+            <li><a href="upload.html" class="upload-link"><b>TECHNOLOGY</b></a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="fir">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.G6zZ55fWOTKt6LnDoqRclAAAAA&pid=Api&P=0&h=220" alt="">
+            <button class="g g1" onclick="openNew()">GO</button>
+            <h3><b>Give state-get diseases</b></h3>
+            <p>You can give the name of the state and can get the type of cancer or chronic disease which occured the most in that particular state and also precautions to be taken....</p>
+       </div>
+       <div class="fir">
+           <img src="https://tse2.mm.bing.net/th?id=OIP.EvY8PnLyRk4xFZeA3a6bvwHaE8&pid=Api&P=0&h=220" alt="">
+           <button class="g g2" onclick="opennew2()">GO</button>
+           <h3><b>Give disease-Get state</b></h3>
+           <p>You can give the name of the cancer and get the state in which it is occuring the most and also the precautions to be taken...</p>
+      </div>
+      <script>
+        function openNew(){
+            const searchApplicationUrl = 'search1.html';
+            window.open(searchApplicationUrl, '_blank');
+        }
+    </script>
+    <script>
+        function opennew2(){
+            const searchApplicationUrl = 'search2.html';
+            window.open(searchApplicationUrl, '_blank');
+        }
+    </script>
+</body>
+</html>

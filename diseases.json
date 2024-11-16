@@ -1,0 +1,120 @@
+{
+    "lung cancer":{
+        "state":["Mizoram"],
+            "precaution":["Avoid tobacco, alcohol and get vaccinated against HPV."]
+    },
+    "Mouth cancer":{
+        "state":
+        ["Telangana"],
+        "precaution":["Avoid tobacco, alcohol and get vaccinated against HPV."]
+    },
+    
+    "cervical cancer":{
+        "state":["Andhra Pradesh"],
+        "precaution":["Get vaccinated against HPV"]
+    },
+    "musculosketal":{
+        "state":["Nagaland"],
+        "precaution":["Do excersise"]
+    },
+    "skin cancer":{
+        "state":["Kerala"],
+        "precaution":["wear sunscreen, UV-blocking sunglasses."]
+    },
+    "stomach cancer":{
+        "state":["karnataka"],
+        "precaution":["limit smoked and pickled foods, including salted meats and fish."]
+    },
+    "ovary cancer":{
+        "state":["Maharastra"],
+        "precaution":["Exercise reguraly, dont smoke."]
+    },
+    "breast cancer":{
+        "state":["Manipur"],
+        "precaution":["Limit alcohol, stay at a health weight."]
+    },
+    "oral cancer":{
+        "state":["Madhya Pradesh"],
+        "precaution":["Healthy diet, avoid smoking."]
+    },
+    "gastric cancer":{
+        "state":["Odisha"],
+        "precaution":["include fruits and vegetables in everyday diet."]
+    },
+    "pharynx cancer":{
+        "state":["Punjab"],
+        "precaution":["get HPV vaccine."]
+    },
+    "liver cancer":{
+        "state":["Arunachal Pradesh"],
+        "precaution":["Prevent and treat hepatits B and C infections."]
+    },
+    "esophageal cancer":{
+        "state":["Assam"],
+        "precaution":["avoiding tobacco and alcohol use."]
+    },
+    "gallbladder cancer":{
+        "state":["UttarPradesh"],
+        "precaution":["Limit the time you spend sitting or lying down and maintain healthy weight."]
+    },
+    "colorectal":{
+        "state":["jammu and kashmir"],
+        "precaution":["Do physical activities and maintain diet."]
+    },
+    "heart disease":{
+        "state":["Uttarakhand"],
+        "precaution":["Dont smoke, Get moving."]
+    },
+    "tuberculosis":{
+        "state":["Harayana"],
+        "precaution":["Get vaccinated, be isolated from others."]
+    },
+    "diabetics":{
+        "state":["Gujarat"],
+        "precaution":["Be physically active and take proper medication."]
+    },
+    "hypertension":{
+        "state":["Goa"],
+        "precaution":["Get proper sleep, reduce salt in your diet"]
+    },
+    "respiratory diseases":{
+        "state":["West Bengal"],
+        "precaution":["Hand hygiene, respiratory hygiene/ cough etiquette."]
+    },
+    "oral cancer":{
+        "state":["Bihar"],
+        "precaution":["Visit dentist regularly"]
+    },
+    "asthma":{
+        "state":["Chattishgarh"],
+        "precaution":["Avoid dust."]
+    },
+    "Diarrhoeal":{
+        "state":["Himachal Pradesh"],
+        "precaution":["Store and prepare food safely by washing."]
+    },
+    "anemia":{
+        "state":["Jharkhand"],
+        "precaution":["Take iron-rich food, vitamin-c."]
+    },
+    "copd":{
+        "state":["Meghalaya"],
+        "precaution":["Avoid smoking and stay physically active."]
+    },
+    "branchittis":{
+        "state":["Rajasthan"],
+        "precaution":["Wash your hands frequently."]
+    },
+    "cirrhosis":{
+        "state":["Sikkim"],
+        "precaution":["Eat a low-sodium diet"]
+    },
+    "cardiovascular disease":{
+        "state":["Tripura"],
+        "precaution":["Improve sleep health"]
+    },
+    "Kidney dieases":{
+        "state":["Tamilnadu"],
+        "precaution":["Drink more water and limit alcohol."]
+    }
+}

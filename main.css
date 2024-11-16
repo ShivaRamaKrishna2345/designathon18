@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+
+}
+nav {
+    background-color: rgb(223, 232, 112);
+    position: fixed;
+    width: 100%;
+}
+.explore-link {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set color to black */
+}
+.select-link {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set color to black */
+}
+.upload-link {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set color to black */
+}
+nav ul {
+    font-size: 25px;
+    padding: 10px 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+
+main {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://media0.giphy.com/media/3ov9jYkVbdGMo6UcG4/200.webp?cid=ecf05e47rbekaggym77mvkxwbu5lc3rlq0a73jxfcsh5g7gx&ep=v1_gifs_search&rid=200.webp&ct=g);
+    padding: 100px;
+    align-items: center;
+}
+
+.fir {
+    text-align: center;
+    width: 100%; /* Adjusted for responsiveness */
+    max-width: 300px; /* Maximum width for larger screens */
+    height: 500px;
+    background-color: white;
+    margin-top: 20px; /* Adjusted margin for responsiveness */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 140px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 20px;
+}
+
+h3 {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(111, 109, 109);
+}
+
+h4 {
+    color: white;
+    width: 100px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+    padding: 6px;
+}
+
+.g1 {
+    background-color: rgba(29, 29, 98, 0.708);
+}
+
+.g2 {
+    background-color: rgb(206, 206, 40);
+}
+
+.g3 {
+    background-color: rgba(232, 45, 232, 0.716);
+}
+.g{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    nav ul {
+        width: 100%;
+        padding: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .fir {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

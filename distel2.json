@@ -1,0 +1,26 @@
+{
+    "lung cancer":{
+        "state":{
+           "state": ["మిజోరం"]
+        },
+        "precautions":{
+           "precautions": ["ధూమపానం మానేయండి మరియు ఎక్కువ పండ్లు మరియు కూరగాయలు తినండి."]
+        }
+    },
+    "mouth cancer":{
+        "state":{
+           "state": ["తెలంగాణ"]
+        },
+        "precautions":{
+            "precautions":["పొగాకు, ఆల్కహాల్‌ను నివారించండి మరియు HPVకి వ్యతిరేకంగా టీకాలు వేయండి."]
+        }
+    },
+    "cervical cancer":{
+        "state":{
+          "state":  ["ఆంధ్రప్రదేశ్"]
+        },
+        "precautions":{
+           "precautions": ["HPVకి వ్యతిరేకంగా టీకాలు వేయండి"]
+        }
+    }
+}
